@@ -2,6 +2,7 @@ public class Solution {
     public ArrayList<Integer> grayCode(int n) {
         // Start typing your Java solution below
         // DO NOT write main() function
+	// see http://en.wikipedia.org/wiki/File:Binary-reflected_Gray_code_construction.svg
         ArrayList<Integer> result = new ArrayList<Integer>();
         result.add(0);
         if (n > 0) {
